@@ -1,0 +1,22 @@
+---Instructions---
+
+--upload the content of the folder "upload" to your website
+At admin Side:
+	->Go to Extensions->Modules .
+	->click [Install] green button at the right of 'newsletters'. (install success message should appear)
+	-> click [Edit] blue button at the right of  'newsletters'
+	-> only one field to enable/disable the module status
+
+	-> Go to System->Design->layout and choose a layout to add to 
+	-> select 'newsletters' from dropdown list & position and Save.
+		Now Go to the System->User->User Group Edit in the adminstrator and give permission to module/newsletters file and other file that related to newsletter.
+	
+Note: You Just Need to change few things in your file:
+	->Add this two line in admin/controller/common/menu.php:
+		1.$data['news'] = $this->url->link('common/newsletter', 'token=' . $this->session->data['token'], 'SSL');
+		
+		2.$data['newsletter'] = "Newsletter";
+	->Add this line in admin/view/template/common/menu.php:
+		1.<a href="<?php echo $news; ?>"><?php echo $newsletter; ?></a>   wherever you want to show Newssletters. 
+
+Now Go to The User View

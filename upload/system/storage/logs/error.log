@@ -1,0 +1,4 @@
+2016-02-23 14:13:46 - PHP Notice:  Undefined index: sort_order in C:\xampp\htdocs\opencart\opencart\upload\admin\model\design\banner.php on line 37
+2016-02-23 14:13:46 - PHP Notice:  Undefined index: sort_order in C:\xampp\htdocs\opencart\opencart\upload\admin\model\design\banner.php on line 37
+2016-03-01 9:41:50 - PHP Warning:  unlink(C:/xampp/htdocs/opencart/opencart/upload/system/storage/cache/cache.store.1456584079): Permission denied in C:\xampp\htdocs\opencart\opencart\upload\system\library\cache\file.php on line 17
+2016-03-02 10:58:40 - PHP Warning:  unlink(C:/xampp/htdocs/opencart/opencart/upload/system/storage/cache/cache.language.1456839998): Permission denied in C:\xampp\htdocs\opencart\opencart\upload\system\library\cache\file.php on line 17
